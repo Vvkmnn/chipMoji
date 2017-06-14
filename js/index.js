@@ -1,8 +1,17 @@
 (function() {
   
   var gradients = ["linear-gradient(to bottom, red 0%, orange 100%) fixed",
-                   "linear-gradient(to bottom, blue 0%, white 100%) fixed",
-                   "linear-gradient(to bottom, blue 0%, white 100%) fixed"];
+                   "linear-gradient(to bottom, yellow 0%, white 100%) fixed",
+                   "linear-gradient(to bottom, green 0%, black 100%) fixed",
+                   "linear-gradient(to bottom, white 0%, blue 100%) fixed",
+                   "linear-gradient(to bottom, red 0%, black 100%) fixed",
+                   "linear-gradient(to bottom, black 0%, blue 100%) fixed",
+                   "linear-gradient(to bottom, orange 0%, green 100%) fixed",
+                   "linear-gradient(to bottom, gray 0%, purple 100%) fixed",
+                   "linear-gradient(to bottom, black 0%, green 100%) fixed",
+                  "linear-gradient(to bottom, orange 0%, green 100%) fixed",
+                   "linear-gradient(to bottom, white 0%, blue 100%) fixed",
+                   ];
 
   var currentIndex = 0;
 

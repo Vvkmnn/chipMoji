@@ -130,6 +130,8 @@ var Emoji = (function () {
     };
     return Emoji;
 }());
+
+
 /**
  * @classdesc Main class reponsible for running the experiment.
  */
