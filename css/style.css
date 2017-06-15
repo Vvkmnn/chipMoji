@@ -6,7 +6,7 @@
 body {
   /*background: -webkit-linear-gradient(top, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;*/
   /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;*/
-  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: linear-gradient(to bottom, red 0%,darkred 100%) fixed;
   font: 14px/20px "Lato", Arial, sans-serif;
   margin-top: 30px;
 
@@ -62,7 +62,7 @@ canvas {
 }
 
 .clash-card__image {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/1200px-Potato-Chips.jpg");
 }
 .clash-card__image img {
   width: 300px;
@@ -71,7 +71,6 @@ canvas {
   left: 50px;
   
 }
-
 
 .clash-card__level {
   opacity: 0;
@@ -114,17 +113,17 @@ canvas {
 }
 
 .clash-card__unit-stats--barbarian {
-  background: #EC9B3B;
+  background: red;
 }
 .clash-card__unit-stats--barbarian .one-third {
-  border-right: 1px solid #BD7C2F;
+  border-right: 1px solid darkred;
 }
 
 .clash-card__unit-stats--archer {
-  background: #EE5487;
+  background: green;
 }
 .clash-card__unit-stats--archer .one-third {
-  border-right: 1px solid #D04976;
+  border-right: 1px solid darkseagreen;
 }
 
 .clash-card__unit-stats--giant {
@@ -135,10 +134,10 @@ canvas {
 }
 
 .clash-card__unit-stats--goblin {
-  background: #82BB30;
+  background: orange;
 }
 .clash-card__unit-stats--goblin .one-third {
-  border-right: 1px solid #71a32a;
+  border-right: 1px solid gray;
 }
 
 .clash-card__unit-stats--wizard {
